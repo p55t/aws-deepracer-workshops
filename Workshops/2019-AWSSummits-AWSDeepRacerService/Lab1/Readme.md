@@ -82,7 +82,7 @@ We will provide more details on the AWS DeepRacer League in Section 2, but here 
 - For the [Summit Circuit](https://aws.amazon.com/deepracer/summit-circuit/), the live race track will be the re:Invent 2018 track, so train your model on the re:Invent track if you intend to race at any of the selected AWS Summits. 
 - Each race in the Virtual Circuit will have its own new competition track and it won't be possible to directly train on the competition tracks. Instead we will make a track available that will be similar in theme and design to each competition track, but not identical. This ensures that models have to generalize, and can't just be over fitted to the competition track. 
 
-For today's lab we want to get you ready to race at the Summit, time permitting, so please select the re:Invent 2018 track and scroll to the next section.
+For today's lab we want to get you ready to race on the Re:Invent 2018 track, so please select the re:Invent 2018 track and scroll to the next section.
 
 
 ## 3.3 Action space
