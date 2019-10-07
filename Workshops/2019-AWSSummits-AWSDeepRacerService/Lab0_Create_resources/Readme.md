@@ -1,5 +1,25 @@
 # Lab 0: Let's set up your AWS DeepRacer service and get you off to the races!
 
+## Prerequisites - Getting a Lab Account
+
+For this workshop, we will be issuing lab accounts for you to use to try out the services as documented. It is just like any other AWS account (with some IAM restrictions) and is completely **free to use**. You will not be charged for running any resources in these accounts. Do not store any sensitive information on these accounts. Note that the accounts will be terminated after the workshop, so do take measures to backup and save any work done.
+
+> **Note:** As AWS accounts are a finite resource and we have obtained approval to provision them solely for this workshop's purpose, we'd like to ask you to be **frugal** on the usage.
+
+1. Prior to the workshop, you will be sent a **12-character team hash**. If you do not have this, please sound out to the workshop facilitators for assistance.
+2. Head over to the [Event Engine Dashboard](https://dashboard.eventengine.run/) to login with the hash.
+
+  ![Hash](img/hash_login.png)
+
+3. Once you have logged in, you will be greeted with the **User Dashboard**. The AWS console can be access by clicking on the **AWS Console** button on the right.
+
+  ![DevOps Workshop Architecture](img/console.png)
+  ![DevOps Workshop Architecture](img/console2.png)
+
+> **Important:** Please use the region **Singapore (ap-southeast-1)** for all resources in this lab.
+
+4. Let's get started! Head over to Lab 1 below to begin.
+
 
 # Overview
 This lab is  used to set up the required resources in your AWS DeepRacer service, so you can start training your model, and racing, when we get to the main lab.
