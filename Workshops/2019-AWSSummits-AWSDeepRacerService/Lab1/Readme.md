@@ -45,7 +45,6 @@ This lab assumes you have created the resources required for AWS DeepRacer. Plea
 From the AWS DeepRacer landing page, expand the pane on the left and select **Reinforcement learning**.
 
 
-
 ## Step 2: Model List Page
 Once you select Reinforcement learning, you will land on the models page. This page shows a list of all the models you have created and the status of each model. If you want to create models, this is where you start the process. Similarly, from this page you can download, clone, and delete models. If this is the first time you are using the service and have just created your resources, you should see a few sample models in your account.
 
@@ -113,7 +112,10 @@ In reinforcement learning, the reward function plays a **critical** role in trai
 
 The reward function evaluates the quality of an action's outcome, and rewards the action accordingly. In practice the reward is calculated during training after each action is taken, and forms a key part of the experience (recall we spoke about state, action, next state, reward) used to train the model. You can build the reward function logic using a number of variables that are exposed by the simulator. These variables represent measurements of the car, such as steering angle and speed, the car in relation to the racetrack, such as (x, Y) coordinates, and the racetrack, such as waypoints. You can use these measurements to build your reward function logic in Python 3 syntax.
 
-The following table contains the variables you can use in your reward function. Note these are updated from time to time as our engineers and scientists find better ways of doing things, so adjust your previous reward functions accordingly. At the time of the Singapore Summit (10 April 2019) these variables and descriptions are correct in the AWS DeepRacer service in the AWS console. Always use the latest descriptions in the AWS DeepRacer service. Note, if you use the SageMaker RL notebook, you will have to look at the syntax used in the notebook itself.
+The following table contains the variables you can use in your reward function. Note these are updated from time to time as our engineers and scientists find better ways of doing things, so adjust your previous reward functions accordingly. Always use the latest input parameters in the AWS DeepRacer service documentation.
+See: https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-input.html
+
+Note, if you use the SageMaker RL notebook, you will have to look at the syntax used in the notebook itself.
 
 
 | Variable Name        | Syntax                                                                                | Type                     | Description                                                                                                                                                                                                                                                                                                                                                         |
