@@ -28,7 +28,7 @@ The lab will provide detail on the various components in the AWS DeepRacer servi
 
 
 # Hints
-- Please make sure you save your reward function, and download your trained model from the burner account. You will lose access to the account after the Summit, and the account will be wiped.
+- Please make sure you save your reward function, and download your trained model from the burner account. You will lose access to the account after the end of the day, and the account will be wiped.
 - For those eager to start training a job, our hint would be take your time and familiarize yourself with the concepts first, before starting model training.  
 - Please ask questions as you progress through the lab and feel free to have discussions at your table. 
 - Lastly, when you do start a training job, run it for at least 90 minutes (on the re:Invent track). It takes 6 minutes to spin up the services needed and your model needs time to explore the track before it will manage to complete a lap.
