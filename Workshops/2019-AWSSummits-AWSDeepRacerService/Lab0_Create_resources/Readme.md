@@ -16,7 +16,7 @@ For this workshop, we will be issuing lab accounts for you to use to try out the
   ![DevOps Workshop Architecture](img/console.png)
   ![DevOps Workshop Architecture](img/console2.png)
 
-> **Important:** Please use the region **Singapore (ap-southeast-1)** for all resources in this lab.
+> **Important:** Please use the region **N.Virginia (us-east-1)** for all resources in this lab.
 
 4. Let's get started! Head over to Lab 1 below to begin.
 
