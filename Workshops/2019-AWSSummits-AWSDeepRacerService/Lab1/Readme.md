@@ -65,7 +65,7 @@ Throughout the console you will see <font color=blue>**Info**</font> buttons. Wh
 
 
 ## 3.1 Model details
-You should start at the top with Model Details. Here you can name your model and provide a description for your model. This lab assumes you have created the resources required for AWS DeepRacer. Please see [Lab 0 Create resources](https://github.com/aws-samples/aws-deepracer-workshops/tree/master/Workshops/2019-AWSSummits-AWSDeepRacerService/Lab0_Create_resources) if you have not yet done so.
+You should start at the top with Model Details. Here you can name your model and provide a description for your model. This lab assumes you have created the resources required for AWS DeepRacer. Please see [Lab 0 Create resources](https://github.com/p55t/aws-deepracer-workshops/tree/master/Workshops/2019-AWSSummits-AWSDeepRacerService/Lab0_Create_resources) if you have not yet done so.
 
 ![Model Details](img/model_details.png)
 
