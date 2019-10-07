@@ -40,7 +40,7 @@ Log into the [AWS Console](https://console.aws.amazon.com/deepracer/home?region=
 
 Make sure you are in the **North Virginia** region and navigate to [AWS DeepRacer](https://console.aws.amazon.com/deepracer/home?region=us-east-1#getStarted) (https://console.aws.amazon.com/deepracer/home?region=us-east-1#getStarted).
 
-This lab assumes you have created the resources required for AWS DeepRacer. Please see [Lab 0 Create resources](https://github.com/aws-samples/aws-deepracer-workshops/tree/master/Workshops/2019-AWSSummits-AWSDeepRacerService/Lab0_Create_resources) if you have not yet done so.
+This lab assumes you have created the resources required for AWS DeepRacer. Please see [Lab 0 Create resources](https://github.com/p55t/aws-deepracer-workshops/tree/master/Workshops/2019-AWSSummits-AWSDeepRacerService/Lab0_Create_resources) if you have not yet done so.
 
 From the AWS DeepRacer landing page, expand the pane on the left and select **Reinforcement learning**.
 
