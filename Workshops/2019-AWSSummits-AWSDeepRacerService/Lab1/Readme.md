@@ -257,19 +257,19 @@ Here is my example reward function using the first example above.
 Please scroll to the next section.
 
 ## 3.5 Algorithm settings
-This section specifies the hyperparameters that will be used by the reinforcement learning algorithm during training. Hyperparameters are used to improve training performance.
+This section specifies the hyperparameters that will be used by the reinforcement learning algorithm during training. Hyperparameters are used to improve training performance. See: https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters
 
 Before we dive in, let's just call out some terms we will be using to ensure you are familiar with what they mean.
 
-A **step**, also known as experience, is a tuple of (s,a,r,s’), where s stands for an observation (or state) captured by the camera, a for an action taken by the vehicle, r for the expected reward incurred by the said action, and s’ for the new observation (or new state) after the action is taken.
+A **data point**, also known as an experience, it is a tuple of (s,a,r,s’), where s stands for an observation (or state) captured by the camera, a for an action taken by the vehicle, r for the expected reward incurred by the said action, and s’ for the new observation after the action is taken.
 
-An **episode** is a period in which the vehicle starts from a given starting point and ends up completing the track or going off the track. Thus an episode is a sequence of steps, or experience. Different episodes can have different lengths.
+An **episode** is a period in which the vehicle starts from a given starting point and ends up completing the track or going off the track. It embodies a sequence of experiences. Different episodes can have different lengths.
 
-An **experience buffer** consists of a number of ordered steps collected over fixed number of episodes of varying lengths during training. It serves as the source from which input is drawn for updating the underlying (policy and value) neural networks.
+An **experience buffer** consists of a number of ordered data points collected over fixed number of episodes of varying lengths during training. For AWS DeepRacer, it corresponds to images captured by the camera mounted on your AWS DeepRacer vehicle and actions taken by the vehicle and serves as the source from which input is drawn for updating the underlying (policy and value) neural networks.
 
-A **batch** is an ordered list of experiences, representing a portion of the experience obtained in the simulation over a period of time, and it is used to update the policy network weights.
+A **batch** is an ordered list of experiences, representing a portion of simulation over a period of time, used to update the policy network weights. It is a subset of the experience buffer.
 
-A set of batches sampled at random from an experience buffer is called a **training data set**, and used for training the policy network weights.
+A **training data** is a set of batches sampled at random from an experience buffer and used for training the policy network weights.
 
 Our scientists have tested these parameters a lot, and based on the re:Invent track and a small action space these parameters work well, so feel free to leave them unchanged. However, consider changing them as you start iterating on your models as they can significantly improve training convergence.
 
