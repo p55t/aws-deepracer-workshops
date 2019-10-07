@@ -18,7 +18,7 @@ For this workshop, we will be issuing lab accounts for you to use to try out the
 
 > **Important:** Please use the region **N.Virginia (us-east-1)** for all resources in this lab.
 
-4. Let's get started! Head over to Lab 1 below to begin.
+4. Let's get started to train your DeepRacer Model!
 
 
 # Overview
