@@ -1,5 +1,4 @@
-# Hands-on Exercise 3: Distributed AWS DeepRacer RL Training using
-## Amazon SageMaker and AWS RoboMaker
+# Hands-on Exercise 3: Distributed AWS DeepRacer RL Training using Amazon SageMaker and AWS RoboMaker
 
 Overview
 ========
