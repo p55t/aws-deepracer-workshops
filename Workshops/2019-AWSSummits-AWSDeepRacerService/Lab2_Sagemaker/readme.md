@@ -4,11 +4,10 @@
 Overview
 ========
 
-In this exercise, you will train your [AWS DeepRacer]
+In this exercise, you will train your [AWS DeepRacer](https://aws.amazon.com/deepracer/)
 using reinforcement learning (RL), Amazon SageMaker RL, and the AWS
-RoboMaker 3D driving simulator. AWS DeepRacer uses [Amazon
-SageMaker] to build and train its reinforcement learning
-models and [AWS RoboMaker] to create the virtual simulator
+RoboMaker 3D driving simulator. AWS DeepRacer uses [Amazon SageMaker](https://aws.amazon.com/sagemaker/) to build and train its reinforcement learning
+models and [AWS RoboMaker](https://aws.amazon.com/robomaker/) to create the virtual simulator
 that serves as the environment the car interacts with.
 
 Unlike the first two exercises, where you used the AWS DeepRacer
@@ -23,8 +22,7 @@ training, tuning, and simulation.
 > offered a monthly free tier of 10 hours of Amazon SageMaker training,
 > and 60 simulation units of Amazon RoboMaker (enough to cover 10 hours
 > of training). If you go beyond those free tier limits, you will accrue
-> additional costs. For more information see the [AWS DeepRacer Pricing
-> page].
+> additional costs. For more information see the [AWS DeepRacer Pricing page](https://aws.amazon.com/deepracer/pricing/).
 
 Learning Objectives
 -------------------
@@ -80,8 +78,7 @@ To do that, follow the steps below.
     **Browse**, navigate to your local drive, and choose
     **SageMakerForDeepRacerSetup.yaml**. Then click **Next**.
 
-> Note: Locate the **SageMakerForDeepRacerSetup.yaml** CloudFormation
-> template file which in this repository.
+ ### Note: Locate the [**SageMakerForDeepRacerSetup.yaml**](https://github.com/p55t/aws-deepracer-workshops/blob/master/Workshops/2019-AWSSummits-AWSDeepRacerService/Lab2_Sagemaker/SageMakerForDeepRacerSetup.yaml) CloudFormation template file which in this repository.
 
 6.  Enter a name for the stack (for example,
     SageMaker-For-DeepRacer-Stack), keep the default settings and click
@@ -120,10 +117,7 @@ height="1.6171872265966754in"}
 
 11. Once inside the Amazon SageMaker notebook instance, click **Open
     Jupyter**. This will open the Jupyter dashboard. Make sure that you
-    see the notebook
-
-> files **rl\_deepracer\_robomaker\_coach.ipynb** and
-> **rl\_deepracer\_robomaker\_coach.zip**.
+    see the notebook files **rl\_deepracer\_robomaker\_coach.ipynb** and **rl\_deepracer\_robomaker\_coach.zip**.
 
 Task 2: Initialize and complete the Amazon SageMaker notebook instance for model building and training
 ======================================================================================================
@@ -163,5 +157,4 @@ Additional Resources
 -   For more information about AWS Training and Certification, see
     [https://aws.amazon.com/training/].
 
--   To troubleshoot and collaborate on AWS DeepRacer, see [
-    https://forums.aws.amazon.com/forum.jspa?forumID=318].
+-   To troubleshoot and collaborate on AWS DeepRacer, see [https://forums.aws.amazon.com/forum.jspa?forumID=318].
