@@ -76,9 +76,9 @@ To do that, follow the steps below.
 5.  On the **Select Template** page, in the **Choose a Template**
     section, select the **Upload a template to Amazon S3** option. Click
     **Browse**, navigate to your local drive, and choose
-    **SageMakerForDeepRacerSetup.yaml**. Then click **Next**.
+    [**SageMakerForDeepRacerSetup.yaml**](https://raw.githubusercontent.com/p55t/aws-deepracer-workshops/master/Workshops/2019-AWSSummits-AWSDeepRacerService/Lab2_Sagemaker/SageMakerForDeepRacerSetup.yaml). Then click **Next**.
 
- **Note:** Locate the [**SageMakerForDeepRacerSetup.yaml**](https://raw.githubusercontent.com/p55t/aws-deepracer-workshops/master/Workshops/2019-AWSSummits-AWSDeepRacerService/Lab2_Sagemaker/SageMakerForDeepRacerSetup.yaml) CloudFormation template file which in this repository.
+ > **Note:** Locate the [**SageMakerForDeepRacerSetup.yaml**](https://raw.githubusercontent.com/p55t/aws-deepracer-workshops/master/Workshops/2019-AWSSummits-AWSDeepRacerService/Lab2_Sagemaker/SageMakerForDeepRacerSetup.yaml) CloudFormation template file which in this repository.
 
 6.  Enter a name for the stack (for example,
     SageMaker-For-DeepRacer-Stack), keep the default settings and click
