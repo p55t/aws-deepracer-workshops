@@ -78,16 +78,14 @@ To do that, follow the steps below.
     **Browse**, navigate to your local drive, and choose
     **SageMakerForDeepRacerSetup.yaml**. Then click **Next**.
 
- ### Note: Locate the [**SageMakerForDeepRacerSetup.yaml**](https://github.com/p55t/aws-deepracer-workshops/blob/master/Workshops/2019-AWSSummits-AWSDeepRacerService/Lab2_Sagemaker/SageMakerForDeepRacerSetup.yaml) CloudFormation template file which in this repository.
+ **Note:** Locate the [**SageMakerForDeepRacerSetup.yaml**](https://raw.githubusercontent.com/p55t/aws-deepracer-workshops/master/Workshops/2019-AWSSummits-AWSDeepRacerService/Lab2_Sagemaker/SageMakerForDeepRacerSetup.yaml) CloudFormation template file which in this repository.
 
 6.  Enter a name for the stack (for example,
     SageMaker-For-DeepRacer-Stack), keep the default settings and click
     **Next.**
 
 > **Note:** If this is the second stack you're creating, make sure to
-> choose the option **False** under
->
-> **CreateS3Bucket.** If this is the first stack you're creating, you
+> choose the option **False** under **CreateS3Bucket.** If this is the first stack you're creating, you
 > can disregard this note.
 
 7.  Accept the default settings on **Options** screen and click
