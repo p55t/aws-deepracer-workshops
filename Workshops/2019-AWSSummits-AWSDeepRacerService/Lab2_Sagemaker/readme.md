@@ -96,8 +96,7 @@ To do that, follow the steps below.
     you will see the status as "CREATE\_COMPLETE" in green, as shown in
     the **Resources** tab below.
 
-> ![](./media/image1.jpeg){width="6.567270341207349in"
-> height="3.6693744531933508in"}
+> ![](./media/image1.jpeg)
 
 10. Next, open the **Outputs** tab and click the link next to
     **SagemakerNotebook**. This will open up an Amazon SageMaker
